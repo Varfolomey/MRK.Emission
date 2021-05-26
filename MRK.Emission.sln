@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.Api", "MRK.Emission.Api\MRK.Emission.Api.csproj", "{756FB929-5F74-47EA-B739-B86D78E5716A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.Domain", "MRK.Emission.Domain\MRK.Emission.Domain.csproj", "{2F4299C2-CF8E-4FA9-84FC-68DC55415FD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.GrpcClient", "MRK.Emission.GrpcClient\MRK.Emission.GrpcClient.csproj", "{5117C988-98BF-460C-AEAF-E316EB3447D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.Business", "MRK.Emission.Business\MRK.Emission.Business.csproj", "{392D9815-9BC5-42CC-87EC-8D08DD705474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.Service", "MRK.Emission.Service\MRK.Emission.Service.csproj", "{AD7CC100-6669-495B-877C-908D8360C936}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRK.Emission.DataAccess", "MRK.Emission.DataAccess\MRK.Emission.DataAccess.csproj", "{E18A3E7E-0753-4ED0-98F1-41F05DD0D4E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756FB929-5F74-47EA-B739-B86D78E5716A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756FB929-5F74-47EA-B739-B86D78E5716A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756FB929-5F74-47EA-B739-B86D78E5716A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756FB929-5F74-47EA-B739-B86D78E5716A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4299C2-CF8E-4FA9-84FC-68DC55415FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4299C2-CF8E-4FA9-84FC-68DC55415FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4299C2-CF8E-4FA9-84FC-68DC55415FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4299C2-CF8E-4FA9-84FC-68DC55415FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5117C988-98BF-460C-AEAF-E316EB3447D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5117C988-98BF-460C-AEAF-E316EB3447D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5117C988-98BF-460C-AEAF-E316EB3447D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5117C988-98BF-460C-AEAF-E316EB3447D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392D9815-9BC5-42CC-87EC-8D08DD705474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392D9815-9BC5-42CC-87EC-8D08DD705474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392D9815-9BC5-42CC-87EC-8D08DD705474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392D9815-9BC5-42CC-87EC-8D08DD705474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7CC100-6669-495B-877C-908D8360C936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7CC100-6669-495B-877C-908D8360C936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7CC100-6669-495B-877C-908D8360C936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7CC100-6669-495B-877C-908D8360C936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18A3E7E-0753-4ED0-98F1-41F05DD0D4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18A3E7E-0753-4ED0-98F1-41F05DD0D4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18A3E7E-0753-4ED0-98F1-41F05DD0D4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18A3E7E-0753-4ED0-98F1-41F05DD0D4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1A3637-B52D-46A4-804A-205F45C54BF6}
+	EndGlobalSection
+EndGlobal
